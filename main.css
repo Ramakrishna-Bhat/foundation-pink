@@ -1,0 +1,13 @@
+.audience:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+  background-color: purple !important;
+  color: white !important;
+}
+
+.hovere:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+}
+
+.subnav a:active{
+  border-bottom: 5px solid #5BC0EB !important;
+}
