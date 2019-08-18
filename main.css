@@ -6,8 +6,28 @@
 
 .hovere:hover{
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.subnav a:active{
-  border-bottom: 5px solid #5BC0EB !important;
+.bg-blue{
+  background-color:#e7f3fc
+}
+.btn-responsive{
+padding:0;
+border:none;
+background:none;
+}
+
+.btn-blue {
+  background-color:#3040C4 !important;
+}
+.bordr {
+    border-left:  05px solid #fec043;
+}
+
+.btn-primary{
+  background-color: #3040C4 !important;
 }
