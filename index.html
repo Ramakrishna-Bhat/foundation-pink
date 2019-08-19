@@ -21,13 +21,13 @@
   <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top " style="background-color:#F3C6BD !important">
-      <div class="container">
+      <div class="container-fluid">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class=" navbar-headder d-flex align-items-center">
-          <a href="index.html" class="text-dark text-decoration-none"><img src="img/Icon6.png"
-              class="img-fluid nav-image bg-white rounded p-1">
+        <div class="d-flex align-items-center  ">
+          <a href="index.html" class="text-dark text-decoration-none"><img src="img/Icon66.png"
+              class=" logo img-fluid nav-image bg-white rounded-lg px-2 py-1 " style="border-radius: 10px !important;">
             <div class="mx-2">
               <small><b>Foundation</b></small> <br>
               <small class="text-muted">Startup landing template</small>
@@ -35,13 +35,14 @@
         </div>
       </div>
       <div class="collapse navbar-collapse " id="Navbar">
+        <div class=" ml-auto mr-5 px-3">
         <ul class="nav navbar-nav ml-auto">
-          <li class=" nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item "><a class="nav-link" href="story.html">Stories</a></li>
+          <li class=" nav-item mx-4 active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item mx-4 "><a class="nav-link" href="story.html">Stories</a></li>
 
 
           <div class="dropdown">
-            <button type="button" class="btn dropdown-toggle text-dark" data-toggle="dropdown">Library</button>
+            <button type="button" class="btn dropdown-toggle text-dark mx-4" data-toggle="dropdown">Library</button>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="contact.html">Health scheme</a>
               <div class="dropdown-divider"></div>
@@ -50,10 +51,11 @@
               <a class="dropdown-item" href="contact.html">Vehicle Scheme</a>
             </div>
           </div>
-          <a class="btn btn-primary ml-2 btn-blue" href="contact.html" role="button">Get Started</a>
+          <a class="btn btn-primary mr-5 btn-blue" href="contact.html" role="button">Get Started</a>
         </ul>
       </div>
       </div>
+    </div>
     </nav>
 
   </header>
@@ -64,16 +66,16 @@
 
 
     <section id="jumbotron ">
-      <div class="jumbotron  my-0" style="background-color:#F3C6BD">
+      <div class="jumbotron" style="background-color:#F3C6BD">
         <div class="container-fluid">
           <div class="row">
-            <div class=" col-md-4">
-              <h1 class="mt-5"><b>A bill that’s fair and flexible</b></h1>
-              <p>Create live segments and target the right people for messages based on their behaviors.</p>
+            <div class=" col-md-5 pl-0">
+              <h1 class="mt-5 display-4"><b>Build stunning websites & apps.</b></h1>
+              <p>Create live segments and target the<br> right people for messages based on<br>  their behaviors.</p>
               <a class="btn btn-primary btn-blue mb-2" href="contact.html" role="button">Get Started</a>
               <a class="btn btn-light mb-2" href="plan.html" role="button">Learn More</a>
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-7">
               <img src="img/jumbo2.png" alt="jumotron-image" class="img-fluid">
             </div>
           </div>
@@ -82,13 +84,13 @@
 
       <div class="container-fluid bg-light ">
         <div class="row">
-          <div class="col-md-4 offset-md-2  p-5">
+          <div class="col-md-5 offset-md-1 p-5">
             <h6><b>What is it about?</b></h6>
-            <p>Building a website for a startup that looks amazing is not a rocket science anymore.</p>
+            <p>Building a website for a startup that looks <br> amazing is not a rocket science anymore.</p>
           </div>
-          <div class="col-md-4 p-5">
+          <div class="col-md-5 p-5">
             <h6><b>Who is it for?</b></h6>
-            <p>Startups, small companies and teams, entrepreneurs and web developers.</p>
+            <p>Startups, small companies and teams,<br> entrepreneurs and web developers.</p>
           </div>
         </div>
       </div>
@@ -109,15 +111,15 @@
       <div class="container py-5">
         <div class="row ">
           <div class="col-md-5  mx-4 ">
-            <small><b>Features</b></small>
-            <h3 class="mt-3 mb-3">Easily find leads and customers</h3>
+            <small class="text-success"><b>Features</b></small>
+            <h1 class="mt-3 mb-3">Easily find leads and customers</h1>
             <p><small class="text-mutted">Send one-off and automated email, push, and in-app messages to people. Create
                 better stories.</small></p>
 
 
             <div id="accordion">
               <div>
-                <div class="border-bottom p-1" id="headingOne">
+                <div class=" p-1" id="headingOne">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed text-dark  " data-toggle="collapse" data-target="#collapseOne"
                       aria-expanded="true" aria-controls="collapseOne">
@@ -127,15 +129,16 @@
                 </div>
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                  <div class="card-body">
+                  <div class="card-body border-bottom border-primary">
                     Everything you need to start building – including open-source code, documentation.
+                    
                   </div>
                 </div>
               </div>
 
 
               <div>
-                <div class="border-bottom p-1" id="headingTwo">
+                <div class=" p-1" id="headingTwo">
                   <h5 class="mb-0">
                     <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseTwo"
                       aria-expanded="false" aria-controls="collapseTwo">
@@ -144,15 +147,16 @@
                   </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                  <div class="card-body">
+                  <div class="card-body border-bottom border-primary">
                     Everything you need to start building – including open-source code, documentation.
+                    
                   </div>
                 </div>
               </div>
 
 
               <div>
-                <div class="border-bottom p-1" id="headingThree">
+                <div class=" p-1" id="headingThree">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#collapseThree"
                       aria-expanded="false" aria-controls="collapseThree">
@@ -161,7 +165,7 @@
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                  <div class="card-body">
+                  <div class="card-body border-bottom border-primary  ">
                     Everything you need to start building – including open-source code, documentation.
                   </div>
                 </div>
@@ -177,18 +181,18 @@
     </section>
 
     <section id="spinwheel">
-      <div class="container-fluid" style="background-color:#FCF0E3"">
+      <div class="container-fluid  " style="background-color:#FCF0E3"">
         <div class=" row p-5 ">
-          <div class=" col-md-6 ">
+          <div class=" col-md-5 offset-md-1 ">
             <img src=" img/spinwheel.png" class="img-fluid">
         <div class="offset-md-2"><small class="text-muted ">Connect with customers and grow faster</small></div>
       </div>
-      <div class="col-md-5 ">
+      <div class="col-md-4 offset-md-1 ">
         <p><small class="text-danger"><b>Team Inbox</b></small></p>
         <h1>Manage conversations</h1>
         <p class="text-muted mt-3">One place to manage and respond to all conversations with leads and users. Receive
           messages from leads.</p>
-        <div class="bg-white w-75 mt-5 ml-4 shadow border-bottom border-primary p-2">
+        <div class="bg-white w-100 mt-5 shadow border-bottom border-primary p-2">
           <p class=t"text-muted">“Great widgets. Great selection. Great design and <b>easy to implement.</b> Definitely
             a huge time saver for a web developer!”</p>
           <div class="  d-flex align-items-center">
@@ -221,17 +225,17 @@
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
               <p><b>Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
               <a href="#">Learn more about subscriptions</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
               <p><b>Felxible Hours.</b> Get started with our simple snippet of JavaScript or easy to install SDKs for
                 iOS and Android.
               </p>
               <a href="#">Get more info about hours</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
               <p><b>Fast Communication.</b> We offer measures like 2FA and SSO to ensure the safety of your data.
               </p>
               <a href="#">Communication guidelines</a>
@@ -251,24 +255,26 @@
             <a class="btn btn-light mb-2" href="plan.html" role="button">Learn More</a>
           </div>
         </div>
-        <div class="row my-5 offset-md-1 text-center  ">
+        <div class="container-fluid offset-md-1">
+          <div class="row my-5  text-center  ">
 
-          <div class="col-md-2 mx-3 mb-2  bg-white audience">
-            <img src="img/developer.png" alt="" class="img-fluid">
-            <a href="#" class="text-dark ">Developers</a>
-          </div>
-          <div class="col-md-2 mx-3 mb-2   bg-white audience">
-            <img src="img/entertainment.png" alt="" class="img-fluid">
-            <a href="#" class="text-dark ">Entertainments</a>
-          </div>
-          <div class="col-md-2 mx-3 mb-2 bg-white audience">
-            <img src="img/athletes.png" alt="" class="img-fluid">
-            <a href="#" class="text-dark ">Athletes</a>
-          </div>
+            <div class="col-md-2  py-4 px-5 mx-4  bg-white audience rounded-lg">
+              <img src="img/developer.png" alt="" class="img-fluid mb-4">
+              <a href="#" class="text-dark ">Developers</a>
+            </div>
+            <div class="col-md-2  py-4 px-5 mx-4  bg-white audience rounded-lg ">
+              <img src="img/entertainment.png" alt="" class="img-fluid mb-4">
+              <a href="#" class="text-dark   ">Entertainments</a>
+            </div>
+            <div class="col-md-2 py-4 px-5 mx-4 bg-white audience rounded-lg">
+              <img src="img/athletes.png" alt="" class="img-fluid mt-3 mb-4">
+              <a href="#" class="text-dark   ">Athletes</a>
+            </div>
 
-          <div class="col-md-2 mx-3 bg-white audience">
-            <img src="img/creators.png" alt="" class="img-fluid">
-            <a href="#" class="text-dark ">Creators</a>
+            <div class="col-md-2 py-4 px-5 mx-4   bg-white audience rounded-lg">
+              <img src="img/creators.png" alt="" class="img-fluid mb-2">
+              <a href="#" class="text-dark ">Creators</a>
+            </div>
           </div>
         </div>
       </div>
