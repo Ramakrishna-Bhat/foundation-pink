@@ -1,7 +1,9 @@
 .audience:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
-  background-color: purple !important;
+  background-color:#3040C4 !important;
+  border-color:#3040C4 !important;
   color: white !important;
+
 }
 
 .hovere:hover{
@@ -13,7 +15,7 @@
 }
 
 .bg-blue{
-  background-color:#e7f3fc
+  background-color:#e7f3fc;
 }
 
 .bordr {
@@ -24,3 +26,4 @@
   background-color:#3040C4 !important;
   border-color:#3040C4;
 }
+
