@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -36,33 +37,33 @@
       </div>
       <div class="collapse navbar-collapse " id="Navbar">
         <div class=" ml-auto mr-5 px-3">
-        <ul class="nav navbar-nav ml-auto">
-          <li class=" nav-item mx-4 active"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item mx-4 "><a class="nav-link" href="story.html">Stories</a></li>
+          <ul class="nav navbar-nav ml-auto">
+            <li class=" nav-item mx-4 active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item mx-4 "><a class="nav-link" href="story.html">Stories</a></li>
 
 
-          <div class="dropdown">
-            <button type="button" class="btn dropdown-toggle text-dark mx-4" data-toggle="dropdown">Library</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="contact.html">Health scheme</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="contact.html">Insurence Scheme</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="contact.html">Vehicle Scheme</a>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle text-dark mx-4" data-toggle="dropdown">Library</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="contact.html">Health scheme</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="contact.html">Insurence Scheme</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="contact.html">Vehicle Scheme</a>
+              </div>
             </div>
-          </div>
-          <a class="btn btn-primary mr-5 btn-blue" href="contact.html" role="button">Get Started</a>
-        </ul>
+            <a class="btn btn-primary mr-5 btn-blue" href="contact.html" role="button">Get Started</a>
+          </ul>
+        </div>
       </div>
       </div>
-    </div>
     </nav>
 
   </header>
 
   <!-- Begin page content -->
 
-  < role="main" class="flex-shrink-0">
+  <main role="main" class="flex-shrink-0">
 
 
     <section id="jumbotron ">
@@ -71,7 +72,7 @@
           <div class="row">
             <div class=" col-md-5 pl-0">
               <h1 class="mt-5 display-4"><b>Build stunning websites & apps.</b></h1>
-              <p>Create live segments and target the<br> right people for messages based on<br>  their behaviors.</p>
+              <p>Create live segments and target the<br> right people for messages based on<br> their behaviors.</p>
               <a class="btn btn-primary btn-blue mb-2" href="contact.html" role="button">Get Started</a>
               <a class="btn btn-light mb-2" href="plan.html" role="button">Learn More</a>
             </div>
@@ -97,7 +98,7 @@
     </section>
 
     <section id="images">
-      <div class="m-5">
+      <div class="mx-5 mb-5">
         <img src="img/Bitmap01.png" class="img-fluid link-image m-3 p-4">
         <img src="img/Bitmap02.png" class="img-fluid link-image m-3 p-4">
         <img src="img/Bitmap03.png" class="img-fluid link-image m-3 p-4">
@@ -108,69 +109,46 @@
     </section>
 
     <section id="features">
-      <div class="container py-5">
+      <div class="container">
         <div class="row ">
-          <div class="col-md-5  mx-4 ">
+          <div class="col-md-5">
             <small class="text-success"><b>Features</b></small>
-            <h1 class="mt-3 mb-3">Easily find leads and customers</h1>
+            <h1 class="my-3">Easily find leads and customers</h1>
             <p><small class="text-mutted">Send one-off and automated email, push, and in-app messages to people. Create
                 better stories.</small></p>
 
-
             <div id="accordion">
-              <div>
-                <div ß   id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed text-dark  " data-toggle="collapse" data-target="#collapseOne"
-                      aria-expanded="true" aria-controls="collapseOne">
-                      <img src="img/Icon11.png" class="img-fluid">Acquire new customers
-                    </button>
-                  </h5>
+              <div id="headingOne">
+                <button class="btn btn-link collapsed text-dark d-flex align-items-center  " data-toggle="collapse" data-target="#collapseOne">
+                    <i class="material-icons ">explore</i> Acquire new customers
+                </button>
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                  Everything you need to start building – including open-source code, documentation.
                 </div>
-                <hr>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                  <div class="card-body border-bottom border-primary">
-                    Everything you need to start building – including open-source code, documentation.
-                    
-                  </div>
+              </div>
+
+              <div id="headingTwo">
+                <button class="btn btn-link text-dark d-flex align-items-center" data-toggle="collapse" data-target="#collapseTwo">
+                    <i class="material-icons">account_balance</i> Engage users
+                </button>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Everything you need to start building – including open-source code, documentation.
                 </div>
               </div>
 
 
-              <div>
-                <div  id="headingTwo">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseTwo"
-                      aria-expanded="false" aria-controls="collapseTwo">
-                      <img src="img/Icon12.png" class="img-fluid"> Engage users
-                    </button>
-                  </h5>
-                </div>
-                <hr>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                  <div class="card-body border-bottom border-primary">
-                    Everything you need to start building – including open-source code, documentation.
-                  
-                    
-                  </div>
-                </div>
+              <div id="headingThree">
+                <button class="btn btn-link collapsed text-dark d-flex align-items-center" data-toggle="collapse" data-target="#collapseThree">
+                    <i class="material-icons">developer_board</i> Develop across platforms
+                </button>
               </div>
-
-
-              <div>
-                <div  id="headingThree">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#collapseThree"
-                      aria-expanded="false" aria-controls="collapseThree">
-                      <img src="img/Icon13.png" class="img-fluid">Develop across platforms
-                    </button>
-                  </h5>
-                </div>
-                <hr>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                  <div class="card-body border-bottom border-primary  ">
-                    Everything you need to start building – including open-source code, documentation.
-                  </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body ">
+                  Everything you need to start building – including open-source code, documentation.
                 </div>
               </div>
             </div>
@@ -181,6 +159,7 @@
           </div>
         </div>
       </div>
+
     </section>
 
     <section id="spinwheel">
@@ -192,7 +171,7 @@
       </div>
       <div class="col-md-4 offset-md-1 ">
         <p><small class="text-danger"><b>Team Inbox</b></small></p>
-        <h1>Manage conversations</h1>
+        <h1 style="font-weight:700;">Manage conversations</h1>
         <p class="text-muted mt-3">One place to manage and respond to all conversations with leads and users. Receive
           messages from leads.</p>
         <div class="bg-white w-100 mt-5 shadow border-bottom border-primary p-2">
@@ -217,7 +196,7 @@
         <div id="hotspot" class="my-5 py-5 bg-white">
           <div class="row">
             <div class="col-md-6">
-              <h4 class="text-primary">Communicate Better</h4>
+              <h4 class="text-info">Communicate Better</h4>
               <h1>Millions of Wi-Fi hotspots</h1>
               <p>Three products that can be used independently or combined together for your company’s needs.</p>
               <a href="#" class="btn btn-primary btn-blue mb-2">Get Started</a>
@@ -247,35 +226,35 @@
         </div>
     </section>
 
-    <section id="audience" class="bg-blue">
+    <section id="audience" class="bg-blue ">
       <div class="container">
         <div class="row p-5">
           <div class="col-md-4 offset-md-4 text-center ">
             <h6><b>Engage Editors</b></h6>
             <h1>Understand your audience</h1>
             <p class="mt-3">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
-            <a class="btn btn-primary btn-blue mb-2 mr-2" href="contact.html" role="button">Get Started</a>
+            <a class="btn btn-primary  mb-2 mr-2" href="contact.html" role="button">Get Started</a>
             <a class="btn btn-light mb-2" href="plan.html" role="button">Learn More</a>
           </div>
         </div>
-        <div class="container-fluid offset-md-1">
-          <div class="row my-5  text-center  ">
+        <div class="container-fluid offset-md-1 pb-5">
+          <div class="row ">
 
-            <div class="col-md-2  py-4 px-5 mx-4  bg-white audience rounded-lg">
+            <div class="col-md-2  py-4 px-5 mx-4 mb-2 text-center  bg-white audience rounded-lg">
               <img src="img/developer.png" alt="" class="img-fluid mb-4">
               <a href="#" class="text-dark ">Developers</a>
             </div>
-            <div class="col-md-2  py-4 px-5 mx-4  bg-white audience rounded-lg ">
+            <div class="col-md-2  py-4 px-5 mx-4  mb-2 text-left  bg-white audience rounded-lg ">
               <img src="img/entertainment.png" alt="" class="img-fluid mb-4">
-              <a href="#" class="text-dark   ">Entertainments</a>
+              <a href="#" class="text-dark  ">Entertainments</a>
             </div>
-            <div class="col-md-2 py-4 px-5 mx-4 bg-white audience rounded-lg">
-              <img src="img/athletes.png" alt="" class="img-fluid mt-3 mb-4">
-              <a href="#" class="text-dark   ">Athletes</a>
+            <div class="col-md-2 py-4 px-5 mx-4 mb-2 text-center bg-white audience rounded-lg">
+              <img src="img/athletes.png" alt="" class="img-fluid mt-3 mb-2">
+              <a href="#" class="text-dark  ">Athletes</a>
             </div>
 
-            <div class="col-md-2 py-4 px-5 mx-4   bg-white audience rounded-lg">
-              <img src="img/creators.png" alt="" class="img-fluid mb-2">
+            <div class="col-md-2 py-4 px-5 mx-4 mb-2 text-center  bg-white audience rounded-lg">
+              <img src="img/creators.png" alt="" class="img-fluid mb-4">
               <a href="#" class="text-dark ">Creators</a>
             </div>
           </div>
@@ -285,26 +264,23 @@
 
     <section id="images2" class="bg-light position-relative">
 
+      <div class=" offset-md-1 p-3 ">
+        <img src="img/Bitmap01.png" class="img-fluid link-image m-2 p-4">
+        <img src="img/Bitmap02.png" class="img-fluid link-image m-2 p-4">
+        <img src="img/Bitmap03.png" class="img-fluid link-image m-2 p-4">
+        <img src="img/Bitmap04.png" class="img-fluid link-image m-2 p-4">
+        <img src="img/Bitmap05.png" class="img-fluid link-image m-2 p-4">
+        <img src="img/Bitmap06.png" class="img-fluid link-image m-2 p-4">
+      </div>
 
-      <div class="  m-3 p-5 ">
-      
-        <div class=" offset-md-1 pb-3 position-relative">
-          <img src="img/Bitmap01.png" class="img-fluid link-image  p-4">
-          <img src="img/Bitmap02.png" class="img-fluid link-image  p-4">
-          <img src="img/Bitmap03.png" class="img-fluid link-image  p-4">
-          <img src="img/Bitmap04.png" class="img-fluid link-image  p-4">
-          <img src="img/Bitmap05.png" class="img-fluid link-image  p-4">
-          <img src="img/Bitmap06.png" class="img-fluid link-image  p-4">
-        </div>
-      
-        <img src="img/baloon.png" class="  img-fluid  position-absolute" style="bottom:0px; right:0px">
-        <div class="my-3  col-md-6 offset-md-3   text-center">
-          <h6 class="text-primary  mt-4 ">Trusted by the world’s most innovative businesses – big and small</h6>
-          <p>“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send
-            emails, find freelancers. Perfect for sales, marketing, and support”</p>
-          <small><b>Viella Malkovich</b></small>
-          <p class="text-muted"><small>Creative Director at Johnson</small></p>
-        </div>
+      <img src="img/baloon.png" class="  img-fluid h-50 position-absolute" style="bottom:0px; right:0px">
+      <div class="my-3  col-md-6 offset-md-3   text-center">
+        <h6 class="text-primary  mt-4 ">Trusted by the world’s most innovative businesses – big and small</h6>
+        <p>“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send
+          emails, find freelancers. Perfect for sales, marketing, and support”</p>
+        <small><b>Viella Malkovich</b></small>
+        <p class="text-muted pb-5"><small>Creative Director at Johnson</small></p>
+      </div>
       </div>
     </section>
 
@@ -315,30 +291,36 @@
         <button type="submit" class="btn btn-primary mb-5 ">More About Company</button>
 
         <div class="mt-1 align-items-center border rounded">
-          <button type="button" class="btn btn-light btn-block text-left mr-5 audience"><b>Front-End Developer</b>
-            <span class="text-muted  text-right ml-5  "><small>Los Angeles / Remote</small></span>
-            <img src="img/Arrow.png" alt="" class="img-fluid button-image float-right mt-1">
+          <button type="button"
+            class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
+                Developer</b></small>
+            <i class="material-icons  float-right">keyboard_arrow_right</i>
+            <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
           </button>
         </div>
 
         <div class="mt-2 align-items-center border rounded">
-          <button type="button" class="btn btn-light btn-block text-left mr-5 audience "><b>Front-End Developer</b>
-            <span class="text-muted  text-right ml-5  "><small>Los Angeles / Remote</small></span>
-            <img src="img/Arrow.png" alt="" class="img-fluid button-image float-right mt-1">
+          <button type="button"
+            class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
+                Developer</b></small>
+            <i class="material-icons  float-right">keyboard_arrow_right</i>
+            <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
           </button>
         </div>
 
         <div class="mt-2 mb-5 align-items-center border rounded">
-          <button type="button" class="btn btn-light btn-block text-left mr-5 audience"><b>Front-End Developer</b>
-            <span class="text-muted  text-right ml-5  "><small>Los Angeles / Remote</small></span>
-            <img src="img/Arrow.png" alt="" class="img-fluid button-image float-right mt-1">
+          <button type="button"
+            class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
+                Developer</b></small>
+            <i class="material-icons  float-right">keyboard_arrow_right</i>
+            <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
           </button>
         </div>
 
       </div>
     </section>
 
-    <section id="form" class="my-5">  
+    <section id="form" class="my-5">
       <div class="bg-light p-3">
         <div class="row">
           <div class="col-sm-4 offset-sm-1">
@@ -364,20 +346,21 @@
 
 
     <section id="footer">
-      <div class="container">
-        <footer class="footer mt-5 py-3 bg-white">
+      <div class="container ">
+        <footer class="footer mt-5  bg-white">
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="d-flex align-items-center mb-4">
-                <img src="img/Icon6.png" class="nav-image bg-white rounded p-1 ">
+                <img src="img/Icon footer.png" class="nav-image  px-2 py-1 "
+                  style="background-color:#3142C6; border-radius: 10px !important;">
                 <div class="ml-2  ">
                   <small><b>Foundation</b></small> <br>
                   <small class="text-muted">Startup landing template</small>
                 </div>
               </div>
-              <p><small class="text-muted mb-2">Foundation is a website template for startups and small teams. It helps
-                  to
-                  build a website in no time.</small></p>
+              <p><small class="text-muted mb-2">Foundation is a website template for startups <br> and small teams. It
+                  helps to
+                  build a website in <br>no time.</small></p>
               <img src="img/Google Play.png" class="footer-image image-fluid">
               <img src="img/AppStore.png" class="footer-image image-fluid">
             </div>
@@ -407,8 +390,8 @@
           <div class="row">
             <div class="col-sm-10">
               <a href="terms.html" class="footer-link mx-52"><small class="text-muted">Terms</small> </a>
-              <a href="#" class="footer-link mx-2"><small class="text-muted">Privacy</small> </a>
-              <a href="#" class="footer-link mx-2"><small class="text-muted">Liscence</small> </a>
+              <a href="privacy.html" class="footer-link mx-2"><small class="text-muted">Privacy</small> </a>
+              <a href="license.html" class="footer-link mx-2"><small class="text-muted">Liscence</small> </a>
             </div>
 
             <div class="col-sm-2">
@@ -420,6 +403,7 @@
       </div>
       </footer>
     </section>
+  </main>
+</body>
 
-
-   
+</html>
