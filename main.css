@@ -32,3 +32,8 @@
   background: #fff;
   border-bottom: 2px solid #3040C4;
 }
+
+@media screen and (max-width: 600px) {
+  .disapear{
+    display: none;
+  }

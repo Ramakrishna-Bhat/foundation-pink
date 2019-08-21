@@ -22,19 +22,18 @@
   <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top " style="background-color:#F3C6BD !important">
-      <div class="container-fluid">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="d-flex align-items-center  ">
-          <a href="index.html" class="text-dark text-decoration-none"><img src="img/Icon66.png"
-              class=" logo img-fluid nav-image bg-white rounded-lg px-2 py-1 " style="border-radius: 10px !important;">
+      <div class="container-fluid">      
+        <div class="d-flex align-items-center ">
+          <a href="index.html" class="text-dark text-decoration-none">
+            <img src="img/Icon66.png" class=" logo img-fluid nav-image bg-white rounded-lg px-2 py-1 " style="border-radius: 10px !important;">
             <div class="mx-2">
               <small><b>Foundation</b></small> <br>
-              <small class="text-muted">Startup landing template</small>
-          </a>
+              <small class="text-muted disapear">Startup landing template</small></a>
+            </div>
         </div>
-      </div>
+        <a  class="navbar-toggler " data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </a>
       <div class="collapse navbar-collapse " id="Navbar">
         <div class=" ml-auto mr-5 px-3">
           <ul class="nav navbar-nav ml-auto">
@@ -109,9 +108,9 @@
     </section>
 
     <section id="features">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row ">
-          <div class="col-md-5">
+          <div class="col-md-5 mx-5">
             <small class="text-success"><b>Features</b></small>
             <h1 class="my-3">Easily find leads and customers</h1>
             <p><small class="text-mutted">Send one-off and automated email, push, and in-app messages to people. Create
@@ -226,29 +225,30 @@
             <a class="btn btn-light mb-2" href="plan.html" role="button">Learn More</a>
           </div>
         </div>
-        <div class="container-fluid offset-md-1 pb-5">
-          <div class="row ">
+      </div>
+      <div class="container offset-md-2  pb-5">
+        <div class="row">
 
-            <div class="col-md-2  py-4 px-5 mx-4 mb-2 text-center  bg-white audience rounded-lg">
-              <img src="img/developer.png" alt="" class="img-fluid mb-4">
-              <a href="#" class="text-dark ">Developers</a>
-            </div>
-            <div class="col-md-2  py-4 px-5 mx-4  mb-2 text-left  bg-white audience rounded-lg ">
-              <img src="img/entertainment.png" alt="" class="img-fluid mb-4">
-              <a href="#" class="text-dark  ">Entertainments</a>
-            </div>
-            <div class="col-md-2 py-4 px-5 mx-4 mb-2 text-center bg-white audience rounded-lg">
-              <img src="img/athletes.png" alt="" class="img-fluid mt-3 mb-2">
-              <a href="#" class="text-dark  ">Athletes</a>
-            </div>
+          <div class="col-sm-2 py-5 px-3 mx-2 mb-2 text-center bg-white audience rounded-lg">
+            <img src="img/developer.png" alt="" class="img-fluid  mb-4">
+            <div><a href="#" class="text-dark ">Developers</a></div>
+          </div>
+          <div class="col-sm-2 py-5 px-3 mx-2 mb-2 text-center  bg-white audience rounded-lg ">
+            <img src="img/entertainment.png" alt="" class="img-fluid  mb-4">
+            <div><a href="#" class="text-dark  ">Entertainments</a></div>
+          </div>
+          <div class="col-sm-2 py-5 px-3 mx-2 mb-2 text-center bg-white audience rounded-lg">
+            <img src="img/athletes.png" alt="" class="img-fluid mt-3  mb-2">
+            <div><a href="#" class="text-dark  ">Athletes</a></div>
+          </div>
 
-            <div class="col-md-2 py-4 px-5 mx-4 mb-2 text-center  bg-white audience rounded-lg">
-              <img src="img/creators.png" alt="" class="img-fluid mb-4">
-              <a href="#" class="text-dark ">Creators</a>
-            </div>
+          <div class="col-sm-2 py-5 px-3 mx-2 mb-2 text-center  bg-white audience rounded-lg">
+            <img src="img/creators.png" alt="" class="img-fluid  mb-4">
+            <div href="#" class="text-dark ">Creators</a>
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <section id="images2" class="bg-light position-relative">
@@ -262,7 +262,7 @@
         <img src="img/Bitmap06.png" class="img-fluid link-image m-2 p-4">
       </div>
 
-      <img src="img/baloon.png" class="  img-fluid h-50 position-absolute" style="bottom:0px; right:0px">
+      <img src="img/baloon.png" class="  img-fluid h-50 position-absolute disapear" style="bottom:0px; right:0px">
       <div class="my-3  col-md-6 offset-md-3   text-center">
         <h6 class="text-primary  mt-4 ">Trusted by the world’s most innovative businesses – big and small</h6>
         <p>“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send
@@ -275,22 +275,20 @@
 
     <section id="Buttons ">
       <div class="col-md-6 offset-md-3 mt-5 text-center ">
-        <h1>We're Hiring</h1>
-        <p class="mt-3">We’re a team of lifelong learners. We’re equal parts left and right brained. </p>
-        <button type="submit" class="btn btn-primary mb-5 ">More About Company</button>
+      <h1>We're Hiring</h1>
+      <p class="mt-3">We’re a team of lifelong learners. We’re equal parts left and right brained. </p>
+      <button type="submit" class="btn btn-primary mb-5 ">More About Company</button>
 
-        <div class="mt-1 align-items-center border rounded">
-          <button type="button"
-            class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
-                Developer</b></small>
-            <i class="material-icons  float-right">keyboard_arrow_right</i>
-            <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
-          </button>
-        </div>
+      <div class="mt-1 align-items-center border rounded">
+        <button type="button" class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
+              Developer</b></small>
+          <i class="material-icons  float-right">keyboard_arrow_right</i>
+          <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
+        </button>
+      </div>
 
         <div class="mt-2 align-items-center border rounded">
-          <button type="button"
-            class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
+          <button type="button" class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
                 Developer</b></small>
             <i class="material-icons  float-right">keyboard_arrow_right</i>
             <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
@@ -298,8 +296,7 @@
         </div>
 
         <div class="mt-2 mb-5 align-items-center border rounded">
-          <button type="button"
-            class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
+          <button type="button" class="btn btn-outline-light btn-block text-left mr-5 audience text-dark"><small><b>Front-End
                 Developer</b></small>
             <i class="material-icons  float-right">keyboard_arrow_right</i>
             <span class="text-muted  float-right mr-5  "><small>Los Angeles / Remote</small></span>
