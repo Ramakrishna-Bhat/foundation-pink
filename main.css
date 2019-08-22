@@ -2,7 +2,7 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
   background-color:#3040C4 !important;
   border-color:#3040C4 !important;
-  color: white !important;
+  color:white !important;
 
 }
 
@@ -37,14 +37,20 @@
   .disapear{
     display: none;
   }
-
-@media screen and (max-width:600px) {
-  .bg{
-    background-color:white;
-  }
 }
 
-@media screen and (max-width:600px) {
-  .tab{
-
+@media screen and (max-width: 600px) {
+  .bg{
+    background-color:white !important;
   }
+}
+ul {
+  list-style: none;
+}
+
+  ull li:before {
+    content: '✓';
+    padding:5px;
+    color:#3041C4;
+  };
+}

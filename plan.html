@@ -20,26 +20,28 @@
 <body class="d-flex flex-column h-100">
     <header class="mb-5">
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top mb-5">
-        <div class="container">
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class=" navbar-headder d-flex align-items-center">
-              <a href="index.html" class="text-dark text-decoration-none"><img src="img/Icon6.png" class="nav-image bg-white rounded p-1">
-            <div class="ml-2">
-              <small><b>Foundation</b></small> <br>
-              <small class="text-muted">Startup landing template</small></a>
-            </div>
+      <nav class="navbar navbar-light navbar-expand-sm bg-white fixed-top ">
+        <div class="container-fluid">      
+          <div class="d-flex align-items-center ">
+            <a href="index.html" class="text-dark text-decoration-none">
+              <img src="img/Icon66.png" class=" logo img-fluid nav-image bg-white rounded-lg px-2 py-1 shadow" style="border-radius: 10px !important;">
+              <div class="mx-2">
+                <small><b>Foundation</b></small> <br>
+                <small class="text-muted disapear">Startup landing template</small></a>
+              </div>
           </div>
-          <div class="collapse navbar-collapse " id="Navbar">
+          <a  class="navbar-toggler border-0 " data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon"></span>
+          </a>
+        <div class="collapse navbar-collapse mr-auto" id="Navbar">
+          <div class=" ml-auto mr-5 px-3">
             <ul class="nav navbar-nav ml-auto">
-              <li class=" nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item "><a class="nav-link" href="story.html">Stories</a></li>
-
-
+              <li class=" nav-item mx-4 active"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item mx-4 "><a class="nav-link" href="story.html">Stories</a></li>
+  
+  
               <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle text-dark" data-toggle="dropdown">Library</button>
+                <button type="button" class="btn dropdown-toggle text-dark mx-4" data-toggle="dropdown">Library</button>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="contact.html">Health scheme</a>
                   <div class="dropdown-divider"></div>
@@ -48,9 +50,10 @@
                   <a class="dropdown-item" href="contact.html">Vehicle Scheme</a>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary">Get started</button>
+              <a class="btn btn-primary mr-5 btn-blue" href="contact.html" role="button">Get Started</a>
             </ul>
           </div>
+        </div>
         </div>
       </nav>
 
@@ -59,86 +62,90 @@
   <!-- Begin page content -->
 
   <main role="main" class="flex-shrink-0">
-    <section id="divs">
+    <section id="divs" class="bg-light p-3">
       <h1 class="col-md-6 offset-md-3 mt-5 text-center ">Pic a plan.Grow faster with Foundation</h1>
       <hr>
       <p class="mt-1 text-center text-muted">Try for free for 14 days</p>
       <div class="container">
-        <div class="col-md-40 offset-md-2">
-          <div class="row">
-            <div class="col-md-3 mx-2 hovere text-center border">
-            <img src="img/avatar4.png">
-            <p class="text-muted">Standart</p>
-            <p class="text-muted"><small>Works perfect for small teams and companies</small></p>
-            <p class="text-muted">$89 <small>/mo</small></p>
-            <button type="submit" class="btn btn-outline-primary"><small>Try for Free</small></button>
-            <hr>
-              <ul class="list-unstyled">
-                <li class="text-muted"><small>Upload up to 200 MB</small></li>
-                <li class="text-muted"><small>View message performance and test against variants</small></li>
-                <li class="text-muted"><small>Control groups to improve results</small></li>
-                <li class="text-muted"><small>Engage customers</small></li>
-              </ul>
+        <div class="col-md-10 offset-md-2 mb-5">
+          <div class="row ">
+            <div class="col-md-3 mx-2 hovere  border">
+              <div class="text-center">
+              <img src="img/avatar4.png">
+              <p class="text-muted">Standart</p>
+              <p class="text-muted"><small>Works perfect for small teams and companies</small></p>
+              <p class="text-muted">$89 <small>/mo</small></p>
+              <button type="submit" class="btn btn-outline-primary"><small>Try for Free</small></button>
+              <hr>
+              </div>
+              <ull class="list-unstyled ">
+                <li class="text-muted mb-2"><small>Upload up to 200 MB</small></li>
+                <li class="text-muted mb-2"><small>View message </small></li>
+                <li class="text-muted mb-2"><small>Control groups to improve</small></li>
+                <li class="text-muted mb-2"><small>Engage customers</small></li>
+              </ull>
             </div>
 
 
 
 
-          <div class="col-md-3 mx-2  hovere text-center border">
-            <img src="img/avatar3.png">
-            <p class="text-muted">Professional</p>
-            <p class="text-muted"><small>Works perfect for small teams and companies</small></p>
-            <p class="text-muted">$249 <small>/mo</small></p>
-            <button type="submit" class="btn btn-outline-primary"><small>Try for Free</small></button>
-            <hr>
-            <ul class="list-unstyled">
-              <li class="text-muted"><small>Upload up to 1000 MB</small></li>
-              <li class="text-muted"><small>View message performance and test against variants</small></li>
-              <li class="text-muted"><small>Control groups to improve results</small></li>
-              <li class="text-muted"><small>Engage customers</small></li>
-              <li class="text-muted"><small>Unlimited subscriptions</small></li>
-              <li class="text-muted"><small>Free support</small></li>
-            </ul>
-          </div>
+            <div class="col-md-3 mx-2  hovere  border">
+              <div class="text-center">
+              <img src="img/avatar3.png">
+              <p class="text-muted">Professional</p>
+              <p class="text-muted"><small>Works perfect for small teams and companies</small></p>
+              <p class="text-muted">$249 <small>/mo</small></p>
+              <button type="submit" class="btn btn-outline-primary"><small>Try for Free</small></button>
+              <hr>
+            </div>
+              <ull class="list-unstyled">
+                <li class="text-muted mb-2"><small>Upload up to 1000 MB</small></li>
+                <li class="text-muted mb-2"><small>View message </small></li>
+                <li class="text-muted mb-2"><small>Control groups to improve </small></li>
+                <li class="text-muted mb-2"><small>Engage customers</small></li>
+                <li class="text-muted mb-2"><small>Unlimited subscriptions</small></li>
+                <li class="text-muted mb-2"><small>Free support</small></li>
+              </ull>
+            </div>
 
 
-          <div class="col-md-3 mx-2 hovere text-center border">
-            <img src="img/avatar5.png">
-            <p class="text-muted">Corporate</p>
-            <p class="text-muted"><small>Works perfect for small teams and companies</small></p>
-            <p class="text-muted">$899 <small>/mo</small></p>
-            <button type="submit" class="btn btn-outline-primary"><small>Try for Free</small></button>
-            <hr>
-            <ul class="list-unstyled">
-              <li class="text-muted"><small>Upload up to 5000 MB</small></li>
-              <li class="text-muted"><small>View message performance and test against variants</small></li>
-              <li class="text-muted"><small>Control groups to improve results</small></li>
-              <li class="text-muted"><small>Unlimited subscriptions</small></li>
-              <li class="text-muted"><small>Unlimited messages</small></li>
-              <li class="text-muted"><small>Free support</small></li>
-            </ul>
+            <div class="col-md-3 mx-2 hovere  border">
+                <div class="text-center">
+              <img src="img/avatar5.png">
+              <p class="text-muted">Corporate</p>
+              <p class="text-muted"><small>Works perfect for small teams and companies</small></p>
+              <p class="text-muted">$899 <small>/mo</small></p>
+              <button type="submit" class="btn btn-outline-primary"><small>Try for Free</small></button>
+              <hr>
+              </div>
+              <ull class="list-unstyled">
+                <li class="text-muted mb-2"><small>Upload up to 5000 MB</small></li>
+                <li class="text-muted mb-2"><small>View message</small></li>
+                <li class="text-muted mb-2"><small>Control groups to improve </small></li>
+                <li class="text-muted mb-2"><small>Unlimited subscriptions</small></li>
+                <li class="text-muted mb-2"><small>Unlimited messages</small></li>
+                <li class="text-muted mb-2"><small>Free support</small></li>
+              </ull>
+              </div>
             </div>
           </div>
-        
-      
-    </section>
-
-
-    <section id="support" class="m-5 p-5">
-      <div class="row offset-md-1">
-        <div class="col-md-5">
-          <h5>Need a Support?</h5>
-          <p>View message performance and test against variants and control.</p>
-          <a href="#" class="div link">Open a ticket</a>
+          <div class="container mx-5">
+            <div class="row  my-5">
+              <div class="col-md-5 mx-4 text-center">
+                <h5>Need a Support?</h5>
+                <p>View message performance and test against variants performance and the control the system development.</p>
+                <a href="#" class="div link">Open a ticket</a>
+              </div>
+              <div class="border-left p-2"></div>
+              <div class="col-md-5 mx-4 text-center">
+                <h5>Customize Plan</h6>
+                  <p>Looking for something performance and test against variants  else? Request Consultation to customize plan</p>
+                  <a href="contact.html" class="div link">Contact Us</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class=" border-left "></div>
-        <div class="col-md-5 ">
-          <h5>Customize Plan</h6>
-            <p>Looking for something else? Request a Consultation to customize a plan</p>
-            <a href="contact.html" class="div link">Contact Us</a>
-        </div>
-      </div>
-    </div> 
+    
  
     </section>
 
@@ -151,7 +158,7 @@
         <div class="row">
           <div class="col-md-5">
             <h5>Can I cancel anytime?</h5>
-            <p>Of course. Contact our Client Support team prior to your next billing cycle and we'll take care of your
+            <p>Of course. Contact our<a href="#"> Client Support </a>team prior to your next billing cycle and we'll take care of your
               request.</p>
           </div>
 
@@ -221,62 +228,63 @@
     </section>
 
     <section id="footer">
-        <div class="container">
-          <footer class="footer mt-5 py-3 bg-white">
-            <div class="row">
-              <div class="col-md-4 mb-3">
-                <div class="d-flex align-items-center mb-4">
-                  <img src="img/Icon6.png" class="nav-image bg-white rounded p-1 ">
-                  <div class="ml-2  ">
-                    <small><b>Foundation</b></small> <br>
-                    <small class="text-muted">Startup landing template</small>
-                  </div>
+      <div class="container ">
+        <footer class="footer mt-5  bg-white">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center mb-4">
+                <img src="img/Icon footer.png" class="nav-image  px-2 py-1 "
+                  style="background-color:#3142C6; border-radius: 10px !important;">
+                <div class="ml-2  ">
+                  <small><b>Foundation</b></small> <br>
+                  <small class="text-muted">Startup landing template</small>
                 </div>
-                <p><small class="text-muted mb-2">Foundation is a website template for startups and small teams. It helps to
-                    build a website in no time.</small></p>
-                <img src="img/Google Play.png" class="footer-image image-fluid">
-                <img src="img/AppStore.png" class="footer-image image-fluid">
               </div>
-  
-              <div class="col-md-3 ">
-                <ul class="list-unstyled">
-                  <small><b>Product</b></small>
-                  <li><a href="#" class="footer-link ""><small class=" text-muted">Acquire Users</small></a></li>
-                  <li><a href="#" class="footer-link ""><small class=" text-muted">Content Marketing</small> </a></li>
-                  <li><a href="#" class="footer-link ""><small class=" text-muted">Website Templates</small> </a></li>
-                  <li><a href="#" class="footer-link ""><small class=" text-muted">Customer Management</small> </a></li>
-                  <li><a href="#" class="footer-link ""><small class=" text-muted">Virtual Inbox</small> </a></li>
-                </ul>
-              </div>
-  
-              <div class="col-md-3 ">
-                <ul class="list-unstyled">
-                  <small><b>Company</b></small>
-                  <li><a href="#" class="footer-link "><small class="text-muted">About Foundation</small></a></li>
-                  <li><a href="#" class="footer-link "><small class="text-muted">Brand Guidelines</small> </a></li>
-                  <li><a href="#" class="footer-link "><small class="text-muted">Press Kit</small> </a></li>
-                  <li><a href="#" class="footer-link "><small class="text-muted">Support</small> </a></li>
-                </ul>
-              </div>
+              <p><small class="text-muted mb-2">Foundation is a website template for startups <br> and small teams. It
+                  helps to
+                  build a website in <br>no time.</small></p>
+              <img src="img/Google Play.png" class="footer-image image-fluid">
+              <img src="img/AppStore.png" class="footer-image image-fluid">
             </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-10">
-                <a href="terems.html" class="footer-link mx-52"><small class="text-muted">Terms</small> </a>
-                <a href="#" class="footer-link mx-2"><small class="text-muted">Privacy</small> </a>
-                <a href="#" class="footer-link mx-2"><small class="text-muted">Liscence</small> </a>
-              </div>
-  
-              <div class="col-sm-2">
-                <img src="img/LinkedIn.png" class="footer-image image-fluid mr-2">
-                <img src="img/icon-fb.png" class="footer-image image-fluid mr-2">
-                <img src="img/icon-twitter.png" class="footer-image image-fluid mr-2">
-              </div>
+
+            <div class="col-md-3 ">
+              <ul class="list-unstyled">
+                <small><b>Product</b></small>
+                <li><a href="#" class="footer-link ""><small class=" text-muted">Acquire Users</small></a></li>
+                <li><a href="#" class="footer-link ""><small class=" text-muted">Content Marketing</small> </a></li>
+                <li><a href="#" class="footer-link ""><small class=" text-muted">Website Templates</small> </a></li>
+                <li><a href="#" class="footer-link ""><small class=" text-muted">Customer Management</small> </a></li>
+                <li><a href="#" class="footer-link ""><small class=" text-muted">Virtual Inbox</small> </a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 ">
+              <ul class="list-unstyled">
+                <small><b>Company</b></small>
+                <li><a href="#" class="footer-link "><small class="text-muted">About Foundation</small></a></li>
+                <li><a href="#" class="footer-link "><small class="text-muted">Brand Guidelines</small> </a></li>
+                <li><a href="#" class="footer-link "><small class="text-muted">Press Kit</small> </a></li>
+                <li><a href="#" class="footer-link "><small class="text-muted">Support</small> </a></li>
+              </ul>
             </div>
           </div>
-          </footer>
-    </section>
+          <hr>
+          <div class="row">
+            <div class="col-sm-10">
+              <a href="terms.html" class="footer-link mx-52"><small class="text-muted">Terms</small> </a>
+              <a href="privacy.html" class="footer-link mx-2"><small class="text-muted">Privacy</small> </a>
+              <a href="license.html" class="footer-link mx-2"><small class="text-muted">Liscence</small> </a>
+            </div>
 
+            <div class="col-sm-2">
+              <img src="img/LinkedIn.png" class="footer-image image-fluid mr-2">
+              <img src="img/icon-fb.png" class="footer-image image-fluid mr-2">
+              <img src="img/icon-twitter.png" class="footer-image image-fluid mr-2">
+            </div>
+          </div>
+      </div>
+      </footer>
+    </section>
     </main>
   </body>
 </html>
