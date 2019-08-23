@@ -18,47 +18,49 @@
 </head>
 
 <body class="d-flex flex-column h-100">
-  <header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top " style="background-color:#F9D9EB !important">
-      <div class="container-fluid">
-        <div class="d-flex align-items-center mx-5 ">
-          <a href="index.html" class="text-dark text-decoration-none">
-            <img src="img/Icon66.png" class=" logo img-fluid nav-image bg-white  px-2 py-1 " style="border-radius: 10px !important;">
-            <div class="mx-2">
-              <small><b>Foundation</b></small> <br>
-              <small class="text-muted disapear">Startup landing template</small>
-          </a>
-        </div>
-        <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon "></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse " id="Navbar">
-        <div class=" ml-auto mr-5 px-3">
-        <ul class="nav navbar-nav ml-auto">
-          <li class=" nav-item mx-4 active"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item mx-4 "><a class="nav-link" href="story.html">Stories</a></li>
-
-
-          <div class="dropdown">
-            <button type="button" class="btn dropdown-toggle text-dark mx-4" data-toggle="dropdown">Library</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="contact.html">Health scheme</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="contact.html">Insurence Scheme</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="contact.html">Vehicle Scheme</a>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-light navbar-expand-sm  fixed-top bg" style="background-color:#F9D9EB !important">
+          <div class="container-fluid">
+            <div class="d-flex align-items-center ">
+              <a href="index.html" class="text-dark text-decoration-none">
+                <img src="img/Icon66.png" class=" img-fluid nav-image bg-white rounded-lg px-2 py-1 shadow"
+                  style="border-radius: 10px !important;">
+                <div class="mx-2">
+                  <small><b>Foundation</b></small> <br>
+                  <small class="text-muted disapear">Startup landing template</small>
+              </a>
             </div>
           </div>
-          <a class="btn btn-primary mr-5 btn-blue" href="contact.html" role="button">Get Started</a>
-        </ul>
-      </div>
-      </div>
-    </div>
-    </nav>
-
-  </header>
+          <a class="navbar-toggler border-0  " data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+          <div class="collapse navbar-collapse mr-auto" id="Navbar">
+            <div class=" ml-auto mr-5 px-3">
+              <ul class="nav navbar-nav ml-auto">
+                <li class=" nav-item mx-4"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mx-4 active "><a class="nav-link" href="story.html">Stories</a></li>
+    
+    
+                <div class="dropdown">
+                  <button type="button" class="btn dropdown-toggle text-dark  mx-3" data-toggle="dropdown">Library</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="contact.html">Health scheme</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="contact.html">Insurence Scheme</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="contact.html">Vehicle Scheme</a>
+                  </div>
+                </div>
+                <a class="btn btn-primary mx-4 disapear" href="contact.html" role="button">Get Started</a>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </nav>
+    
+      </header>
+    
 
   <!-- Begin page content -->
 
@@ -73,8 +75,8 @@
            <div class=" col-md-5">
               <h1 class="display-4 my-4" style="font-weight:500"><strong>A bill that’s fair and flexible</strong></h1>
               <p>Create live segments and target the<br> right people for messages based on<br> their behaviors.</p>
-              <button type="submit" class="btn btn-primary mt-4">Get started</button>
-              <button type="submit" class="btn btn-light mt-4 ">Learn more</button>
+              <a class="btn btn-primary btn-blue mb-2" href="contact.html" role="button">Get Started</a>
+              <a class="btn btn-light mb-2" href="plan.html" role="button">Learn More</a>
             </div>
         
             <div class=" col-md-7  mt-4">
@@ -108,7 +110,7 @@
       </div>
     </section>
 
-    <section id="audience" class="pt-5  ">
+    <section id="audience" class="pt-2  ">
       <div class="container">
         <div class="row p-5">
           <div class="col-md-4 offset-md-4 text-center">
@@ -163,7 +165,7 @@
 
 
       <div class=" bg-light mt-5 pb-5">
-        <div class="m-5">
+        <div class="disapear">
           <img src="img/Bitmap.png" class="container-image m-1 p-4">
           <img src="img/Bitmap2.png" class="container-image m-1 p-4">
           <img src="img/Bitmap3.png" class="container-image m-1 p-4">
@@ -171,7 +173,33 @@
           <img src="img/Bitmap7.png" class="container-image m-1 p-4">
           <img src="img/Bitmap9.png" class="container-image m-1  p-4">
         </div>
-        <img src="img/baloon.png" class="container-image  position-absolute " style="bottom:0px; right:0px">
+        <img src="img/baloon.png" class="container-image  position-absolute disapear" style="bottom:0px; right:0px">
+        <div class="container d-block d-sm-none">
+            <div class="row">
+              <div class=" col-4 border ">
+                <img src="img/Bitmap01.png" class="img-fluid p-3 w-100">
+              </div>
+              <div class=" col-4 border">
+                <img src="img/Bitmap02.png" class="img-fluid p-3 mt-3 w-100">
+              </div>
+              <div class="col-4   border">
+                <img src="img/Bitmap03.png" class="img-fluid px-4 py-2 w-100">
+              </div>
+            </div>
+            <div class="row">
+              <div class=" col-4  border">
+                <img src="img/Bitmap04.png" class="img-fluid p-1 mt-4 w-100">
+              </div>
+    
+              <div class=" col-4  border">
+                <img src="img/Bitmap05.png" class="img-fluid p-4 w-100">
+              </div>
+    
+              <div class=" col-4    border">
+                <img src="img/Bitmap06.png" class="img-fluid p-2 mt-3  w-100">
+              </div>
+            </div>
+          </div>
         <div class="mt-3  col-md-6 offset-md-3   text-center">
           <h6 class="text-primary  mt-4 ">Trusted by the world’s most innovative businesses – big and small</h6>
           <p>“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send
@@ -183,7 +211,7 @@
     </section>
 
     <section id="hotspot">
-        <div id="hotspot" class="my-5 py-5 ">
+        <div id="hotspot" class="mb-5 mt-3 py-5 ">
           <div class="container">
             <div class="row">
               <div class="col-md-6 ">

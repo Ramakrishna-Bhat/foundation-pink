@@ -44,13 +44,12 @@
     background-color:white !important;
   }
 }
-ul {
-  list-style: none;
-}
 
   ull li:before {
     content: '✓';
     padding:5px;
     color:#3041C4;
-  };
-}
+  }
+
+
+ 
